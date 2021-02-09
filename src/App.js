@@ -12,10 +12,10 @@ function App() {
       <Summary />
       <h2>my projects:</h2>
       <Projects />
-      <h2> Links: </h2>
+      <h2> links: </h2>
       <Links />
 
-  This site last updated: February 2021
+  Last updated: February 2021
 
     </div>
   );
