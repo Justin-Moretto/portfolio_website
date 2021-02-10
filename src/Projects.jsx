@@ -11,15 +11,15 @@ const projects = [
     live: 'https://gracious-swartz-8e7f4d.netlify.app/',
     demo: blackjack,
     desc: 'Blackjack game react bcrypt',//
-    techs: ['react', 'express']//
+    techs: ['react', 'express', 'test', 'test', 'test']//
   },
   {
     name: 'Guitar Market',
     github: 'https://github.com/Justin-Moretto/Guitar-Market',
     live: 'https://guitar-market.herokuapp.com/',
     demo: gutiarMarket,//
-    desc: 'Guitar Market, cookie favourite, sellers, twillio bcrypt',//
-    techs: ['psql']//
+    desc: 'Guitar Market, cookie favourite, sellers, twillio bcrypt, A marketplace application where users could list and search guitars for sale, mark them as sold and contact sellers.',//
+    techs: ['express', 'psql']//
   },
   {
     name: 'Interview Scheduler',
@@ -35,7 +35,7 @@ const projects = [
     live: 'https://justin-tinyapp.herokuapp.com/',
     demo: tinyapp,
     desc: 'tinyapp jQuery bcrypt', //
-    techs: ['jQuery']//
+    techs: ['express', 'EJS']//
   },
   {
     name: 'Tweeter',
@@ -43,7 +43,7 @@ const projects = [
     live: 'https://justin-moretto-tweeter.herokuapp.com/',
     demo: tweeter,
     desc: 'tweeter',//
-    techs: []//
+    techs: ['jQuery', 'ajax', 'mongoDB', 'express']//
   }
 ]
 
