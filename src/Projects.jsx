@@ -2,6 +2,7 @@ import blackjack from "./docs/BJS.gif"
 import tweeter from "./docs/tweeter-demo.gif"
 import scheduler from "./docs/scheduler-demo.gif"
 import tinyapp from "./docs/urls-page.png";
+import gutiarMarket from "./docs/gmarket-demo.gif"
 
 const projects = [
   {
@@ -10,15 +11,15 @@ const projects = [
     live: 'https://gracious-swartz-8e7f4d.netlify.app/',
     demo: blackjack,
     desc: 'Blackjack game react bcrypt',//
-    techs: ['react', 'express']
+    techs: ['react', 'express']//
   },
   {
     name: 'Guitar Market',
     github: 'https://github.com/Justin-Moretto/Guitar-Market',
-    live: 'https://gracious-swartz-8e7f4d.netlify.app/',//replace
-    demo: blackjack,//replace
+    live: 'https://guitar-market.herokuapp.com/',
+    demo: gutiarMarket,//
     desc: 'Guitar Market, cookie favourite, sellers, twillio bcrypt',//
-    techs: ['psql']
+    techs: ['psql']//
   },
   {
     name: 'Interview Scheduler',
@@ -34,7 +35,7 @@ const projects = [
     live: 'https://justin-tinyapp.herokuapp.com/',
     demo: tinyapp,
     desc: 'tinyapp jQuery bcrypt', //
-    techs: ['jQuery']
+    techs: ['jQuery']//
   },
   {
     name: 'Tweeter',
@@ -42,7 +43,7 @@ const projects = [
     live: 'https://justin-moretto-tweeter.herokuapp.com/',
     demo: tweeter,
     desc: 'tweeter',//
-    techs: []
+    techs: []//
   }
 ]
 
