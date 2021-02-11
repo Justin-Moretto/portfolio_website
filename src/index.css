@@ -68,7 +68,7 @@ h2 {
   padding: 20px;
   margin-bottom: 25px;
   background-color: #073066cc;
-  width: min-content
+  width: min-content;
 }
 
 .project-container:hover {
@@ -84,7 +84,7 @@ h2 {
 .project-demo {
   object-fit: scale-down;
   width: 300px;
-  margin: 2px 0 2px 11px;
+  margin: 2px 0 2px 22px;
   border-radius: 8px;
   box-shadow: 0 0 12px rgba(99, 213, 241, 0.637);
 }
@@ -94,6 +94,7 @@ h2 {
   justify-content: space-between;
   color: yellow;
   font-size: 18px;
+  
 }
 
 .links a:visited {
@@ -119,18 +120,23 @@ h2 {
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 20px;
-  width: 330px;
+  width: 360px;
 }
 
 footer {
   font-size: 32px;
-  display: flex;
-  justify-content: space-around;
-  width: 80vw;
   margin: auto;
   color: gainsboro;
+  margin-bottom: 30px;
+}
+
+footer li {
+  margin-left: 55px;
 }
 
 footer a {
-  border: 1px solid gainsboro;
+  color: yellow;
+}
+footer a:hover {
+  color: rgb(183, 112, 250);
 }
