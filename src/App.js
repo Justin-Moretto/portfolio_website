@@ -12,7 +12,7 @@ function App() {
       <Summary />
       <h2>my projects:</h2>
       <Projects />
-      <h2> links: </h2>
+      <h2> my links: </h2>
       <Links />
 
   Last updated: February 2021
