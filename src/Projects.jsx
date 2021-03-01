@@ -65,8 +65,8 @@ const displayProjects = projects.map(project => {
       <p> {project.desc} </p>
       <div class='links-wrapper'>
         <div class="links">
-          <a href={project.github} target="blank">github</a>
-          <a href={project.live} target="blank">live project</a>
+          <a class="link" href={project.github} target="blank">github</a>
+          <a class="link" href={project.live} target="blank">live project</a>
         </div>
       </div>
     </div>

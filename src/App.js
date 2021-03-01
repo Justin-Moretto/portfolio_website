@@ -12,10 +12,8 @@ function App() {
       <Summary />
       <h2>my projects:</h2>
       <Projects />
-      <h2> my links: </h2>
-      <Links />
-
-  Last updated: February 2021
+      <br/>
+      Last updated: March 2021
 
     </div>
   );

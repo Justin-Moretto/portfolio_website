@@ -1,4 +1,6 @@
 import displayPic from "./docs/DP.jpg"
+import Links from "./Links"
+
 
 function Header(params) {
   return (
@@ -13,6 +15,7 @@ function Header(params) {
           <h1>Full Stack Web Developper based in Montreal, Canada</h1>
         </div>
       </div>
+      <Links></Links>
     </section>
   )
 }

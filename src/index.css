@@ -27,7 +27,6 @@ h2 {
 .headerDiv {
   flex-grow: 1;
   text-align: center;
-   ;
 }
 
 #headshot {
@@ -67,13 +66,22 @@ h2 {
   border: solid 1px gainsboro;
   border-radius: 10px;
   padding: 20px;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
   background-image: linear-gradient(to top left, #073066cc, #380766cc);
   width: min-content;
+  /* position: relative; */
+  display: flex;
+  flex-direction: column;
+}
+
+.project-container p {
+  font-family: cursive;
+  font-size: large;
 }
 
 .project-container:hover {
   transform: scale(1.1);
+  background-image: linear-gradient(to top left, #073066, #380766);
 }
 
 .project-container h4 {
@@ -93,17 +101,36 @@ h2 {
 .links {
   display: flex;
   justify-content: space-between;
-  color: yellow;
-  font-size: 18px;
-  
+  color: rgb(99, 213, 241);
 }
 
-.links a:visited {
-  color: yellow;
+.link {
+  color: rgb(99, 213, 241);
+  border: 2px solid;
+  border-radius: 8px;
+  padding: 8px;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 700;
 }
 
-.links a:hover {
-  color: rgb(183, 112, 250);
+.link:visited {
+  color: rgb(99, 213, 241);
+}
+
+.link:hover {
+  color: #041b3a;
+  background-color: rgb(99, 213, 241);
+}
+
+/* .links-wrapper {
+  position: absolute;
+  bottom: 8px;
+  margin: 2px;
+} */
+
+.links-wrapper {
+  margin-top: auto;
 }
 
 .tech {
@@ -124,25 +151,12 @@ h2 {
   width: 360px;
 }
 
-footer {
-  font-size: 32px;
-  margin: auto;
-  color: gainsboro;
-  margin-bottom: 30px;
-  background-color: #073066cc;
-  border: solid 1px gainsboro;
+#header-links {
   border-radius: 10px;
   padding: 20px 0 20px 0;
-  margin: 0 50px 0 50px;
-}
-
-footer li {
-  margin-left: 20px;
-}
-
-footer a {
-  color: yellow;
-}
-footer a:hover {
-  color: rgb(183, 112, 250);
+  position: absolute;
+  right: 50px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
