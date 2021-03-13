@@ -55,11 +55,24 @@ h2 {
   font-family: cursive;
 }
 
+#portfolio-header {
+  background-image: linear-gradient(to top right, #073066cc, #4b0766cc);
+  border: solid 1px gainsboro;
+  border-radius: 10px;
+  padding: 20px 60px 20px 60px;
+  margin: 0 50px 28px 50px;
+  font-size: 22px;
+  font-family: cursive;
+  color: rgb(223, 223, 100)
+}
+
 #portfolio {
+  /* display: grid;
+  grid-template-columns: auto auto auto auto; */
   display: flex;
-  justify-content: space-between;
+  justify-content: start;
   flex-wrap: wrap;
-  margin: 0 50px 0 50px;
+  /* margin: 0 50px 0 50px; */
 }
 
 .project-container {
@@ -67,6 +80,7 @@ h2 {
   border-radius: 10px;
   padding: 20px;
   margin-bottom: 20px;
+  margin-left: 50px;
   background-image: linear-gradient(to top left, #073066cc, #380766cc);
   width: min-content;
   /* position: relative; */
