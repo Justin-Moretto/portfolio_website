@@ -3,7 +3,7 @@ import tweeter from "./docs/tweeter-demo.gif"
 import scheduler from "./docs/scheduler-demo.gif"
 import tinyapp from "./docs/urls-page.png"
 import gutiarMarket from "./docs/gmarket-demo.gif"
-import portfolio from "./docs/portfolioTemp.png"
+import portfolio from "./docs/portfolio.gif"
 
 const projects = [
   {
@@ -31,12 +31,12 @@ const projects = [
     techs: ['react', 'psql']
   },
   {
-    name: 'tinyApp',
-    github: 'https://github.com/Justin-Moretto/tinyapp',
-    live: 'https://justin-tinyapp.herokuapp.com/',
-    demo: tinyapp,
-    desc: 'TinyApp allows users to shorten long URLs (similar to bit.ly or tinyURL). Users must sign in to view, edit, create, and delete their shortened urls. Uses bcrypt to hash passwords and cookie-session to handle login status.',
-    techs: ['express', 'EJS', 'cookies']
+    name: 'This portfolio site',
+    github: 'https://github.com/Justin-Moretto/portfolio_website',
+    live: 'https://justin-moretto.github.io/portfolio_website/',
+    demo: portfolio,
+    desc: 'I built this site with react, mostly just to seperate the components. I plan on implementing a few more cool features and CSS tricks, as well as working on the mobile layout.',
+    techs: ['react']
   },
   {
     name: 'Tweeter',
@@ -47,12 +47,12 @@ const projects = [
     techs: ['jQuery', 'ajax', 'mongoDB', 'express']
   },
   {
-    name: 'This portfolio site',
-    github: 'https://github.com/Justin-Moretto/portfolio_website',
-    live: 'https://justin-moretto.github.io/portfolio_website/',
-    demo: portfolio,
-    desc: 'I built this site with react, mostly just to seperate the components. I made use of some cool CSS tricks to make things fun to mouse over. :)',
-    techs: ['react']
+    name: 'tinyApp',
+    github: 'https://github.com/Justin-Moretto/tinyapp',
+    live: 'https://justin-tinyapp.herokuapp.com/',
+    demo: tinyapp,
+    desc: 'TinyApp allows users to shorten long URLs (similar to bit.ly or tinyURL). Users must sign in to view, edit, create, and delete their shortened urls. Uses bcrypt to hash passwords and cookie-session to handle login status.',
+    techs: ['express', 'EJS', 'cookies']
   },
   // {
   //   name: 'Sick Fits',

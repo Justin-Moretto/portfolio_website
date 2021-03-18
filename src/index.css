@@ -8,7 +8,7 @@ body {
 
   background-color: var(--bg-color);
   /* background-image: url(./docs/stock-photo-city-Montreal-skyline.jpg); */
-  background-position-y: 50%;
+  /* background-position-y: 50%; */
   background-image: url("https://www.transparenttextures.com/patterns/cartographer.png");
   background-attachment: fixed;
   margin: 0;
