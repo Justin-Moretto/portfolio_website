@@ -29,9 +29,11 @@ function Projects(params) {
   return (
     <section>
       <div id="portfolio-header">
-      All web apps built with javascript, html, css, node.js and more.
+      • All web apps built with javascript, html, css, node.js and more.
       <br/>
-      Please note: Sometimes apps may take a few moments to connect to their servers on first launch. Just give it a minute.
+      • Sometimes apps may take a few moments to connect to their servers on first launch. Just give it a minute.
+      <br/>
+      • Guitar Market database curently not working on Heroku, better to clone that repo and run on localhost
       </div>
       <section id="portfolio">
         {displayProjects}

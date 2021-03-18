@@ -1,8 +1,9 @@
 import blackjack from "./docs/BJS.gif"
 import tweeter from "./docs/tweeter-demo.gif"
 import scheduler from "./docs/scheduler-demo.gif"
-import tinyapp from "./docs/urls-page.png";
+import tinyapp from "./docs/urls-page.png"
 import gutiarMarket from "./docs/gmarket-demo.gif"
+import portfolio from "./docs/portfolioTemp.png"
 
 const projects = [
   {
@@ -26,7 +27,7 @@ const projects = [
     github: 'https://github.com/Justin-Moretto/scheduler',
     live: 'https://nostalgic-pasteur-6e603d.netlify.app/',
     demo: scheduler,
-    desc: 'React application where users may select available time slots and interviewers to book appointments throughout the week. User may then edit or delete their appointments. I also practiced testing on this app with Storybook, Jest and Cypress.',
+    desc: 'React application where users may select available time slots and interviewers to book appointments throughout the week. User may then edit or delete their appointments. I also practiced testing on this app with Storybook, Jest and Cypress. Mobile friendly.',
     techs: ['react', 'psql']
   },
   {
@@ -49,10 +50,18 @@ const projects = [
     name: 'This portfolio site',
     github: 'https://github.com/Justin-Moretto/portfolio_website',
     live: 'https://justin-moretto.github.io/portfolio_website/',
-    demo: tweeter,
-    desc: '',
+    demo: portfolio,
+    desc: 'I built this site with react, mostly just to seperate the components. I made use of some cool CSS tricks to make things fun to mouse over. :)',
     techs: ['react']
-  }
+  },
+  // {
+  //   name: 'Sick Fits',
+  //   github: '',
+  //   live: '',
+  //   demo: '',
+  //   desc: 'A marketplace app built with react',
+  //   techs: ['react', 'MongoDB', 'GraphQL', 'Next.js']
+  // }
 ]
 
 export default projects;
