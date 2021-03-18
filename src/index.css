@@ -25,12 +25,14 @@ h2 {
   font-size: 28px;
 }
 
+
 #header {
   height: 340px;
   display: flex;
   border-bottom: solid 1px gainsboro;
-  background-image: var(--gradient1)
+  background-image: var(--gradient1);
 }
+
 
 .headerDiv {
   flex-grow: 1;
@@ -47,6 +49,20 @@ h2 {
   margin-top: 45px;
 }
 
+@media screen and (max-width: 700px) {
+  #headshot {
+    object-fit: cover;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: block;
+    margin-top: 120px;
+  }
+  h1 {
+    font-size: 16px;
+  }
+}
+
 #blurb {
   margin: auto;
   position: relative;
@@ -60,7 +76,7 @@ h2 {
   padding: 20px 60px 20px 60px;
   margin: 0 50px 0 50px;
   font-size: 22px;
-  font-family: cursive;
+  font-family: serif;
 }
 
 #portfolio-header {
@@ -71,7 +87,7 @@ h2 {
   margin: 0 50px 28px 50px;
   font-size: 22px;
   font-family: cursive;
-  color: rgb(223, 223, 100)
+  color: rgb(223, 223, 100);
 }
 
 #portfolio {
