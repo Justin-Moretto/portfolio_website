@@ -6,7 +6,7 @@ function Header(params) {
   return (
     <section id="header">
       <div className="headerDiv">
-        <img src={displayPic} alt="picture broken" id="headshot"></img>
+        <img src={displayPic} id="headshot"></img>
       </div>
 
       <div className="headerDiv">
