@@ -1,4 +1,4 @@
-import displayPic from "./docs/DP.jpg"
+import displayPic from "./docs/dp2023.jpg"
 import Links from "./Links"
 
 

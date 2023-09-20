@@ -86,7 +86,7 @@ h2 {
   padding: 20px 60px 20px 60px;
   margin: 0 50px 28px 50px;
   font-size: 22px;
-  font-family: cursive;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   color: rgb(223, 223, 100);
 }
 
@@ -114,7 +114,7 @@ h2 {
 }
 
 .project-container p {
-  font-family: cursive;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: large;
 }
 
