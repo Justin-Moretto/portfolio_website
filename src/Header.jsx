@@ -12,7 +12,7 @@ function Header(params) {
       <div className="headerDiv">
         <div id="blurb">
           <h1>Justin Moretto</h1>
-          <h2>Software Developper</h2>
+          <h1>Software Developper</h1>
           <h3>Montreal, Canada</h3>
         </div>
       </div>

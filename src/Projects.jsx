@@ -29,10 +29,8 @@ function Projects(params) {
   return (
     <section>
       <div id="portfolio-header">
-        Hosting for the live projects are currently broken
-        <br />
-        <br/>
-        All web apps built with javascript, html, css, node.js and more
+        *Hosting for most of the live projects are currently down. It's better to follow the links to the github repos.
+        I hope to get the hosting back up and running sometime but it is not currently a priority for me.
       </div>
       <section id="portfolio">
         {displayProjects}
