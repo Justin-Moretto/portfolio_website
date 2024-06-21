@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/portfolio_website/static/css/main.05f81cc4.chunk.css",
-    "main.js": "/portfolio_website/static/js/main.96ddb469.chunk.js",
-    "main.js.map": "/portfolio_website/static/js/main.96ddb469.chunk.js.map",
-    "runtime-main.js": "/portfolio_website/static/js/runtime-main.789331a3.js",
-    "runtime-main.js.map": "/portfolio_website/static/js/runtime-main.789331a3.js.map",
-    "static/js/2.b608780f.chunk.js": "/portfolio_website/static/js/2.b608780f.chunk.js",
-    "static/js/2.b608780f.chunk.js.map": "/portfolio_website/static/js/2.b608780f.chunk.js.map",
+    "main.css": "/portfolio_website/static/css/main.87718957.chunk.css",
+    "main.js": "/portfolio_website/static/js/main.7a32638e.chunk.js",
+    "main.js.map": "/portfolio_website/static/js/main.7a32638e.chunk.js.map",
+    "runtime-main.js": "/portfolio_website/static/js/runtime-main.aef6a3d4.js",
+    "runtime-main.js.map": "/portfolio_website/static/js/runtime-main.aef6a3d4.js.map",
+    "static/js/2.e6b4188c.chunk.js": "/portfolio_website/static/js/2.e6b4188c.chunk.js",
+    "static/js/2.e6b4188c.chunk.js.map": "/portfolio_website/static/js/2.e6b4188c.chunk.js.map",
     "index.html": "/portfolio_website/index.html",
-    "static/css/main.05f81cc4.chunk.css.map": "/portfolio_website/static/css/main.05f81cc4.chunk.css.map",
-    "static/js/2.b608780f.chunk.js.LICENSE.txt": "/portfolio_website/static/js/2.b608780f.chunk.js.LICENSE.txt",
+    "static/css/main.87718957.chunk.css.map": "/portfolio_website/static/css/main.87718957.chunk.css.map",
+    "static/js/2.e6b4188c.chunk.js.LICENSE.txt": "/portfolio_website/static/js/2.e6b4188c.chunk.js.LICENSE.txt",
     "static/media/BJS.f5c1c48e.gif": "/portfolio_website/static/media/BJS.f5c1c48e.gif",
-    "static/media/DP.5617ec51.jpg": "/portfolio_website/static/media/DP.5617ec51.jpg",
+    "static/media/dp2023.287e0e1b.jpg": "/portfolio_website/static/media/dp2023.287e0e1b.jpg",
     "static/media/gmarket-demo.a6f4c010.gif": "/portfolio_website/static/media/gmarket-demo.a6f4c010.gif",
     "static/media/portfolio.84d3b955.gif": "/portfolio_website/static/media/portfolio.84d3b955.gif",
     "static/media/scheduler-demo.ac948923.gif": "/portfolio_website/static/media/scheduler-demo.ac948923.gif",
@@ -19,9 +19,9 @@
     "static/media/urls-page.8584fc89.png": "/portfolio_website/static/media/urls-page.8584fc89.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.789331a3.js",
-    "static/js/2.b608780f.chunk.js",
-    "static/css/main.05f81cc4.chunk.css",
-    "static/js/main.96ddb469.chunk.js"
+    "static/js/runtime-main.aef6a3d4.js",
+    "static/js/2.e6b4188c.chunk.js",
+    "static/css/main.87718957.chunk.css",
+    "static/js/main.7a32638e.chunk.js"
   ]
 }
