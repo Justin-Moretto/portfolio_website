@@ -1,19 +1,19 @@
 body {
   /* VARIABLES */
-  --bg-color: #000000;
-  --gradient1: linear-gradient(to bottom right, #00132c, #320061);
-  --gradient2: linear-gradient(to top right, #00132c, #320061);
-  --gradient3: linear-gradient(to top left, #00132cc0, #2e0058cc);
-  --gradient4: linear-gradient(to top left, #00132c, #320061);
+  --bg-color: #1a1a1a;
+  --text-color: #ffffff;
+  --accent-color: #00bcd4;
+  --gradient1: linear-gradient(to bottom right, #333333, #111111);
+  --gradient2: linear-gradient(to top right, #333333, #111111);
+  --gradient3: linear-gradient(to top left, #333333cc, #111111cc);
+  --gradient4: linear-gradient(to top left, #333333, #111111);
 
   background-color: var(--bg-color);
-  /* background-image: url(./docs/stock-photo-city-Montreal-skyline.jpg); */
-  /* background-position-y: 50%; */
   background-image: url("https://www.transparenttextures.com/patterns/cartographer.png");
   background-attachment: fixed;
   margin: 0;
-  color: gainsboro;
-  font-family: monospace;
+  color: var(--text-color);
+  font-family: 'Open Sans', sans-serif;
 }
 
 h1 {
@@ -29,7 +29,7 @@ h2 {
 #header {
   height: 340px;
   display: flex;
-  border-bottom: solid 1px gainsboro;
+  border-bottom: solid 1px var(--accent-color);
   background-image: var(--gradient1);
 }
 
@@ -61,6 +61,31 @@ h2 {
   h1 {
     font-size: 16px;
   }
+  #header {
+    flex-direction: column;
+    height: auto;
+  }
+  #header-links {
+    flex-direction: row;
+    margin-right: 0;
+    justify-content: center;
+    gap: 12px;
+    padding: 20px 0;
+  }
+  .project-container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+  }
+  .project-demo {
+    width: 100%;
+    margin: 0;
+  }
+  #summary,
+  #portfolio-header {
+    margin: 0 20px 20px 20px;
+    padding: 20px;
+  }
 }
 
 #blurb {
@@ -71,22 +96,22 @@ h2 {
 
 #summary {
   background-image: var(--gradient2);
-  border: solid 1px gainsboro;
+  border: solid 1px var(--accent-color);
   border-radius: 10px;
   padding: 20px 60px 20px 60px;
   margin: 0 50px 0 50px;
   font-size: 22px;
-  font-family: serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 #portfolio-header {
   background-image: var(--gradient2);
-  border: solid 1px gainsboro;
+  border: solid 1px var(--accent-color);
   border-radius: 10px;
   padding: 20px 60px 20px 60px;
   margin: 0 50px 28px 50px;
   font-size: 22px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: 'Open Sans', sans-serif;
   color: rgb(223, 223, 100);
 }
 
@@ -100,7 +125,7 @@ h2 {
 }
 
 .project-container {
-  border: solid 1px gainsboro;
+  border: solid 1px var(--accent-color);
   border-radius: 10px;
   padding: 20px;
   margin-bottom: 20px;
@@ -114,7 +139,7 @@ h2 {
 }
 
 .project-container p {
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: large;
 }
 
@@ -140,11 +165,11 @@ h2 {
 .links {
   display: flex;
   justify-content: space-between;
-  color: rgb(99, 213, 241);
+  color: var(--accent-color);
 }
 
 .link {
-  color: rgb(99, 213, 241);
+  color: var(--accent-color);
   border: 2px solid;
   border-radius: 8px;
   padding: 8px;
@@ -155,12 +180,12 @@ h2 {
 }
 
 .link:visited {
-  color: rgb(99, 213, 241);
+  color: var(--accent-color);
 }
 
 .link:hover {
   color: #041b3a;
-  background-color: rgb(99, 213, 241);
+  background-color: var(--accent-color);
 }
 
 .links-wrapper {
@@ -168,11 +193,11 @@ h2 {
 }
 
 .tech {
-  background-color: rgb(52, 103, 128);
+  background-color: #333333;
   display: inline;
   padding: 5px 12px 5px 12px;
   border-radius: 50px;
-  border: 2px rgb(99, 213, 241) solid;
+  border: 2px var(--accent-color) solid;
   font-size: 18px;
   margin-right: 18px;
   margin-bottom: 9px;
