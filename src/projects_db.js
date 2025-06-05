@@ -2,7 +2,7 @@ import blackjack from "./docs/BJS.gif"
 import tweeter from "./docs/tweeter-demo.gif"
 import scheduler from "./docs/scheduler-demo.gif"
 import tinyapp from "./docs/urls-page.png"
-import gutiarMarket from "./docs/gmarket-demo.gif"
+import guitarMarket from "./docs/gmarket-demo.gif"
 import portfolio from "./docs/portfolio.gif"
 
 const projects = [
@@ -18,7 +18,7 @@ const projects = [
     name: 'Guitar Market',
     github: 'https://github.com/Justin-Moretto/Guitar-Market',
     live: 'https://guitar-market.herokuapp.com/',
-    demo: gutiarMarket,
+    demo: guitarMarket,
     desc: 'A marketplace application where users may search for and list guitars for sale, mark them as sold and contact sellers. Users must make an account, which is stored in a database with hashed passwords. Cookie-session keeps track of signed in user. Signed-in users may add listings to their favourites.',
     techs: ['express', 'psql', 'EJS', 'cookies']
   },
@@ -35,7 +35,7 @@ const projects = [
     github: 'https://github.com/Justin-Moretto/portfolio_website',
     live: 'https://justin-moretto.github.io/portfolio_website/',
     demo: portfolio,
-    desc: 'I built this site with react, mostly just to seperate the components. I plan on implementing a few more cool features and CSS tricks, as well as working on the mobile layout.',
+    desc: 'I built this site with react, mostly just to separate the components. I plan on implementing a few more cool features and CSS tricks, as well as working on the mobile layout.',
     techs: ['react']
   },
   {

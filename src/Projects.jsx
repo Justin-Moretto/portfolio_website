@@ -4,21 +4,21 @@ const displayProjects = projects.map(project => {
   return (
     <div className="project-container">
       <h4>{project.name}</h4>
-      <div class="tech-list">
+      <div className="tech-list">
         {project.techs.map(tech => {
           return (
-            <div class="tech">
+            <div className="tech">
               {'•' + tech}
             </div>
           )
         })}
       </div>
-      <img class="project-demo" src={project.demo} alt="ERROR: picture broken"></img>
+        <img className="project-demo" src={project.demo} alt="ERROR: picture broken"></img>
       <p> {project.desc} </p>
-      <div class='links-wrapper'>
-        <div class="links">
-          <a class="link" href={project.github} target="blank">github</a>
-          <a class="link" href={project.live} target="blank">live project</a>
+        <div className='links-wrapper'>
+          <div className="links">
+            <a className="link" href={project.github} target="_blank" rel="noopener noreferrer">github</a>
+            <a className="link" href={project.live} target="_blank" rel="noopener noreferrer">live project</a>
         </div>
       </div>
     </div>
