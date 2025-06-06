@@ -30,15 +30,12 @@ h2 {
   font-size: 28px;
 }
 
-
 #header {
   height: 340px;
   display: flex;
   border-bottom: solid 1px var(--accent-color);
   background-image: var(--gradient1);
 }
-
-
 
 .headerDiv {
   flex-grow: 1;
