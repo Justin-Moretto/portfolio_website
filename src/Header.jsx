@@ -10,13 +10,13 @@ function Header(params) {
       </div>
 
       <div className="headerDiv">
-        <div id="blurb">
           <h1>Justin Moretto</h1>
           <h2>Software Developer</h2>
           <h3>Montreal, Canada</h3>
-        </div>
       </div>
-      <Links></Links>
+      <div className="headerDiv">
+        <Links></Links>
+      </div>
     </section>
   )
 }

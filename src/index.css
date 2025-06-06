@@ -106,12 +106,6 @@ h2 {
   }
 }
 
-#blurb {
-  margin: auto;
-  position: relative;
-  top: 35%;
-}
-
 #summary {
   background-image: var(--gradient2);
   border: solid 1px var(--accent-color);
