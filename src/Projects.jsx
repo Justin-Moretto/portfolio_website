@@ -46,6 +46,14 @@ function Projects() {
             <p>{project.desc}</p>
             <div className='links-wrapper'>
               <div className="links">
+                {/* <a
+                  className="link"
+                  href={project.live}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  live project
+                </a> */}
                 <a
                   className="link"
                   href={project.github}
@@ -53,14 +61,6 @@ function Projects() {
                   rel="noopener noreferrer"
                 >
                   github
-                </a>
-                <a
-                  className="link"
-                  href={project.live}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  live project
                 </a>
               </div>
             </div>

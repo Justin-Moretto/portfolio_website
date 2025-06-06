@@ -8,9 +8,9 @@ function App() {
     <div className="App">
 
       <Header />
-      <h2>about me:</h2>
+      <h2>About me:</h2>
       <Summary />
-      <h2>my projects:</h2>
+      <h2>My projects:</h2>
       <Projects />
       <br/>
       
