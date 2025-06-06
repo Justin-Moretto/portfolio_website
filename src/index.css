@@ -52,15 +52,13 @@ h2 {
   margin-right: 80px;
 }
 
-
-
 #headshot {
   object-fit: cover;
   width: 250px;
   height: 250px;
   border-radius: 20%;
   display: block;
-  margin: 45px auto 0 auto;
+  margin: 45px;
 }
 
 @media screen and (max-width: 700px) {
@@ -198,6 +196,7 @@ h2 {
   font-size: 20px;
   font-weight: 700;
   transition: 0.3s;
+  width: 130px;
 }
 
 .link:visited {
