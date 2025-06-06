@@ -32,23 +32,30 @@ h2 {
 #header {
   height: 340px;
   display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
   border-bottom: solid 1px var(--accent-color);
   background-image: var(--gradient1);
 }
 
 .headerDiv {
   flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   text-align: center;
 }
 #header-links {
   border-radius: 10px;
-  padding: 60px 0 60px 0;
+  padding: 0;
   display: flex;
   flex-direction: column;
   text-align: center;
   align-items: center;
-  justify-content: space-evenly;
-  margin-right: 80px;
+  justify-content: center;
+  margin-right: 0;
 }
 
 #headshot {
@@ -57,7 +64,7 @@ h2 {
   height: 250px;
   border-radius: 20%;
   display: block;
-  margin: 45px;
+  margin: 0;
 }
 
 @media screen and (max-width: 700px) {
