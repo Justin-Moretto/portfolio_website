@@ -8,6 +8,7 @@ import portfolio from "./docs/portfolio.gif"
 const projects = [
   {
     name: 'Blackjack Switch',
+    type: ["Web", "Game"],
     github: 'https://github.com/Justin-Moretto/blackjack-switch',
     live: 'https://gracious-swartz-8e7f4d.netlify.app/',
     demo: blackjack,
@@ -16,6 +17,7 @@ const projects = [
   },
   {
     name: 'Guitar Market',
+    type: ["Web"],
     github: 'https://github.com/Justin-Moretto/Guitar-Market',
     live: 'https://guitar-market.herokuapp.com/',
     demo: guitarMarket,
@@ -24,6 +26,7 @@ const projects = [
   },
   {
     name: 'Interview Scheduler',
+    type: ["Web"],
     github: 'https://github.com/Justin-Moretto/scheduler',
     live: 'https://nostalgic-pasteur-6e603d.netlify.app/',
     demo: scheduler,
@@ -32,6 +35,7 @@ const projects = [
   },
   {
     name: 'This portfolio site',
+    type: ["Web"],
     github: 'https://github.com/Justin-Moretto/portfolio_website',
     live: 'https://justin-moretto.github.io/portfolio_website/',
     demo: portfolio,
@@ -40,6 +44,7 @@ const projects = [
   },
   {
     name: 'Tweeter',
+    type: ["Web"],
     github: 'https://github.com/Justin-Moretto/tweeter',
     live: 'https://justin-moretto-tweeter.herokuapp.com/',
     demo: tweeter,
@@ -48,6 +53,7 @@ const projects = [
   },
   {
     name: 'tinyApp',
+    type: ["Web"],
     github: 'https://github.com/Justin-Moretto/tinyapp',
     live: 'https://justin-tinyapp.herokuapp.com/',
     demo: tinyapp,

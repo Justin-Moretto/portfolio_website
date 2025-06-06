@@ -1,44 +1,73 @@
-import projects from "./projects_db"
+import { useState } from "react";
+import projects from "./projects_db";
 
-const displayProjects = projects.map(project => {
-  return (
-    <div className="project-container">
-      <h4>{project.name}</h4>
-      <div className="tech-list">
-        {project.techs.map(tech => {
-          return (
-            <div className="tech">
-              {'•' + tech}
-            </div>
-          )
-        })}
-      </div>
-        <img className="project-demo" src={project.demo} alt="ERROR: picture broken"></img>
-      <p> {project.desc} </p>
-        <div className='links-wrapper'>
-          <div className="links">
-            <a className="link" href={project.github} target="_blank" rel="noopener noreferrer">github</a>
-            <a className="link" href={project.live} target="_blank" rel="noopener noreferrer">live project</a>
-        </div>
-      </div>
-    </div>
-  )
-})
+function Projects() {
+  const [filter, setFilter] = useState("All");
 
-function Projects(params) {
+  const filteredProjects = projects.filter(project => {
+    return filter === "All" || project.type.includes(filter);
+  });
+  
   return (
     <section>
       <div id="portfolio-header">
-        Hosting for the live projects are currently broken
-        <br />
-        <br/>
-        All web apps built with javascript, html, css, node.js and more
+        <div>
+          {['All', 'Web', 'Mobile', 'Game'].map(type => (
+            <label key={type}>
+              <input
+                type="radio"
+                name="projectFilter"
+                value={type}
+                checked={filter === type}
+                onChange={() => setFilter(type)}
+              />
+              {type}
+            </label>
+          ))}
+        </div>
       </div>
+
       <section id="portfolio">
-        {displayProjects}
+        {filteredProjects.map(project => (
+          <div className="project-container" key={project.name}>
+            <h4>{project.name}</h4>
+            <div className="tech-list">
+              {project.techs.map(tech => (
+                <div className="tech" key={tech}>
+                  {'•' + tech}
+                </div>
+              ))}
+            </div>
+            <img
+              className="project-demo"
+              src={project.demo}
+              alt="ERROR: picture broken"
+            />
+            <p>{project.desc}</p>
+            <div className='links-wrapper'>
+              <div className="links">
+                <a
+                  className="link"
+                  href={project.github}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  github
+                </a>
+                <a
+                  className="link"
+                  href={project.live}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  live project
+                </a>
+              </div>
+            </div>
+          </div>
+        ))}
       </section>
     </section>
-
   );
 }
 
