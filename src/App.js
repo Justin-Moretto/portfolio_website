@@ -14,7 +14,7 @@ function App() {
       <Projects />
       <br/>
       
-      Last updated: March 2021
+      Last updated: June 2025
 
     </div>
   );

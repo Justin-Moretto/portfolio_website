@@ -11,7 +11,7 @@ function Header(params) {
 
       <div className="headerDiv">
           <h1>Justin Moretto</h1>
-          <h2>Software Developer</h2>
+          <h1>Software Developer</h1>
           <h3>Montreal, Canada</h3>
       </div>
       <div className="headerDiv">
