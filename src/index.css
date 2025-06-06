@@ -43,10 +43,9 @@ h2 {
   object-fit: cover;
   width: 250px;
   height: 250px;
-  border-radius: 50%;
+  border-radius: 20%;
   display: block;
-  margin-left: auto;
-  margin-top: 45px;
+  margin: 45px auto 0 auto;
 }
 
 @media screen and (max-width: 700px) {
@@ -54,9 +53,9 @@ h2 {
     object-fit: cover;
     width: 100px;
     height: 100px;
-    border-radius: 50%;
+    border-radius: 20%;
     display: block;
-    margin-top: 120px;
+    margin: 120px auto 0 auto;
   }
   h1 {
     font-size: 16px;
@@ -64,6 +63,7 @@ h2 {
   #header {
     flex-direction: column;
     height: auto;
+    align-items: center;
   }
   #header-links {
     flex-direction: row;
@@ -71,6 +71,7 @@ h2 {
     justify-content: center;
     gap: 12px;
     padding: 20px 0;
+    width: 100%;
   }
   .project-container {
     margin-left: auto;
