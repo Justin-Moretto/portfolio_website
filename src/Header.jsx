@@ -9,7 +9,7 @@ function Header(params) {
         <img src={displayPic} id="headshot"></img>
       </div>
 
-      <div className="headerDiv">
+      <div className="headerDiv headerText">
           <h1>Justin Moretto</h1>
           <h1>Software Developer</h1>
           <h3>Montreal, Canada</h3>

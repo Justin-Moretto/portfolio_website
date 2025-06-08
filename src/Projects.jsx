@@ -60,7 +60,7 @@ function Projects() {
                   live project
                 </a> */}
                 <a
-                  className="link"
+                  className="button-link link"
                   href={project.github}
                   target="_blank"
                   rel="noopener noreferrer"
