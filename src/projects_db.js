@@ -60,14 +60,24 @@ const projects = [
     desc: 'TinyApp allows users to shorten long URLs (similar to bit.ly or tinyURL). Users must sign in to view, edit, create, and delete their shortened urls. Uses bcrypt to hash passwords and cookie-session to handle login status.',
     techs: ['express', 'EJS', 'cookies']
   },
-  // {
-  //   name: 'Sick Fits',
-  //   github: '',
-  //   live: '',
-  //   demo: '',
-  //   desc: 'A marketplace app built with react',
-  //   techs: ['react', 'MongoDB', 'GraphQL', 'Next.js']
-  // }
+  {
+    name: 'A Ribbiting Tale',
+    type: ["Game"],
+    github: 'https://github.com/Justin-Moretto/tinyapp', //todo - change link
+    live: 'https://justin-https://noccifer.itch.io/a-ribbitting-tale.herokuapp.com/',
+    demo: tinyapp, //todo - add gif
+    desc: 'PLACEHOLDER', //todo - description
+    techs: ['Unity', 'C#']
+  },
+  {
+    name: 'Magnet Merge',
+    type: ["Game"],
+    github: 'https://github.com/Justin-Moretto/tinyapp', //todo - change link
+    live: 'https://tanspriter.itch.io/magnet-merge',
+    demo: tinyapp, //todo - add gif
+    desc: 'PLACEHOLDER', //todo - description
+    techs: ['Unity', 'C#']
+  },
 ]
 
 export default projects;

@@ -229,7 +229,7 @@ h2 {
   background-color: #333333;
   display: inline;
   padding: 5px 12px 5px 12px;
-  border-radius: 50px;
+  border-radius: 8px;
   border: 2px var(--accent-color) solid;
   font-size: 18px;
   margin-right: 18px;
