@@ -242,3 +242,14 @@ h2 {
   margin-bottom: 20px;
   width: 360px;
 }
+  
+.project_type {
+  background-color: #381836;
+  display: inline;
+  padding: 5px 12px 5px 12px;
+  border-radius: 8px;
+  border: 2px #e034ad solid;
+  font-size: 18px;
+  margin-right: 18px;
+  margin-bottom: 9px;
+}

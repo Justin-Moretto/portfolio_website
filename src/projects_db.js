@@ -4,6 +4,8 @@ import scheduler from "./docs/scheduler-demo.gif"
 import tinyapp from "./docs/urls-page.png"
 import guitarMarket from "./docs/gmarket-demo.gif"
 import portfolio from "./docs/portfolio.gif"
+import ribbiting from "./docs/ribbit-demo.gif"
+import magnetMerge from "./docs/magnet-demo.gif"
 
 const projects = [
   {
@@ -16,15 +18,6 @@ const projects = [
     techs: ['react', 'express', 'psql']
   },
   {
-    name: 'Guitar Market',
-    type: ["Web"],
-    github: 'https://github.com/Justin-Moretto/Guitar-Market',
-    live: 'https://guitar-market.herokuapp.com/',
-    demo: guitarMarket,
-    desc: 'A marketplace application where users may search for and list guitars for sale, mark them as sold and contact sellers. Users must make an account, which is stored in a database with hashed passwords. Cookie-session keeps track of signed in user. Signed-in users may add listings to their favourites.',
-    techs: ['express', 'psql', 'EJS', 'cookies']
-  },
-  {
     name: 'Interview Scheduler',
     type: ["Web"],
     github: 'https://github.com/Justin-Moretto/scheduler',
@@ -32,6 +25,15 @@ const projects = [
     demo: scheduler,
     desc: 'React application where users may select available time slots and interviewers to book appointments throughout the week. User may then edit or delete their appointments. I also practiced testing on this app with Storybook, Jest and Cypress. Mobile friendly.',
     techs: ['react', 'psql']
+  },
+  {
+    name: 'Guitar Market',
+    type: ["Web"],
+    github: 'https://github.com/Justin-Moretto/Guitar-Market',
+    live: 'https://guitar-market.herokuapp.com/',
+    demo: guitarMarket,
+    desc: 'A marketplace application where users may search for and list guitars for sale, mark them as sold and contact sellers. Users must make an account, which is stored in a database with hashed passwords. Cookie-session keeps track of signed in user. Signed-in users may add listings to their favourites.',
+    techs: ['express', 'psql', 'EJS', 'cookies']
   },
   {
     name: 'This portfolio site',
@@ -63,19 +65,28 @@ const projects = [
   {
     name: 'A Ribbiting Tale',
     type: ["Game"],
-    github: 'https://github.com/Justin-Moretto/tinyapp', //todo - change link
+    github: 'https://bitbucket.org/an_moniz/gmtk21/src/main/', //todo - change link
     live: 'https://justin-https://noccifer.itch.io/a-ribbitting-tale.herokuapp.com/',
-    demo: tinyapp, //todo - add gif
+    demo: ribbiting,
     desc: 'PLACEHOLDER', //todo - description
     techs: ['Unity', 'C#']
   },
   {
     name: 'Magnet Merge',
     type: ["Game"],
-    github: 'https://github.com/Justin-Moretto/tinyapp', //todo - change link
+    github: 'https://bitbucket.org/an_moniz/gmtk21/src/main/', //todo - change link
     live: 'https://tanspriter.itch.io/magnet-merge',
-    demo: tinyapp, //todo - add gif
-    desc: 'PLACEHOLDER', //todo - description
+    demo: magnetMerge,
+    desc: 'PLACEHOLDER GMTK21', //todo - description
+    techs: ['Unity', 'C#']
+  },
+  {
+    name: 'Dungeon Maze',
+    type: ["Game"],
+    github: 'https://github.com/Justin-Moretto/maze_prototype',
+    live: 'https://tanspriter.itch.io/magnet-merge',
+    demo: magnetMerge,
+    desc: 'PLACEHOLDER GMTK21', //todo - description
     techs: ['Unity', 'C#']
   },
 ]

@@ -32,6 +32,11 @@ function Projects() {
           <div className="project-container" key={project.name}>
             <h4>{project.name}</h4>
             <div className="tech-list">
+            {project.type.map(type => (
+                <div className="project_type" key={type}>
+                  {type}
+                </div>
+              ))}
               {project.techs.map(tech => (
                 <div className="tech" key={tech}>
                   {tech}
