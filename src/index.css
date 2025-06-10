@@ -374,4 +374,7 @@ h2 {
   .filter-label.filter-static {
     display: none;
   }  
+  .project-container:hover {
+    transform: none;
+  }
 }
