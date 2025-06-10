@@ -7,21 +7,23 @@ function Projects() {
   const filteredProjects = projects.filter(project => {
     return filter === "All" || project.type.includes(filter);
   });
-  
+
   return (
     <section>
       <div id="portfolio-header">
-        <div>
+        <div className="filter-group">
+          <label className="filter-label filter-static">Filter:</label>
           {['All', 'Web', 'Mobile', 'Game'].map(type => (
-            <label key={type}>
+            <label key={type} className="filter-label">
               <input
                 type="radio"
                 name="projectFilter"
                 value={type}
                 checked={filter === type}
                 onChange={() => setFilter(type)}
+                className="filter-input"
               />
-              {type}
+              <span className="filter-text">{type}</span>
             </label>
           ))}
         </div>
@@ -32,7 +34,7 @@ function Projects() {
           <div className="project-container" key={project.name}>
             <h4>{project.name}</h4>
             <div className="tech-list">
-            {project.type.map(type => (
+              {project.type.map(type => (
                 <div className="project_type" key={type}>
                   {type}
                 </div>
@@ -51,14 +53,16 @@ function Projects() {
             <p>{project.desc}</p>
             <div className='links-wrapper'>
               <div className="links">
-                {/* <a
-                  className="link"
-                  href={project.live}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  live project
-                </a> */}
+                {project.isLive && (
+                  <a
+                    className="button-link link live-button"
+                    href={project.live}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    live project
+                  </a>
+                )}
                 <a
                   className="button-link link"
                   href={project.github}
