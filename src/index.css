@@ -105,7 +105,7 @@ h2 {
 #portfolio {
   margin: 0 50px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
 }
 
@@ -140,7 +140,7 @@ h2 {
 
 .project-demo {
   object-fit: scale-down;
-  width: 330px;
+  width: 350px;
   margin: 2px 12px 2px 12px;
   border-radius: 8px;
   box-shadow: 0 0 12px rgba(99, 213, 241, 0.637);
