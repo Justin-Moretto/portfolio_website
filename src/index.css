@@ -103,8 +103,9 @@ h2 {
 
 /* PORTFOLIO SECTION */
 #portfolio {
+  margin: 0 50px;
   display: flex;
-  justify-content: start;
+  justify-content: space-between;
   flex-wrap: wrap;
 }
 
@@ -114,7 +115,6 @@ h2 {
   border-radius: 10px;
   padding: 20px;
   margin-bottom: 20px;
-  margin-left: 50px;
   background-image: var(--gradient4);
   width: min-content;
   display: flex;
@@ -140,8 +140,8 @@ h2 {
 
 .project-demo {
   object-fit: scale-down;
-  width: 300px;
-  margin: 2px 0 2px 22px;
+  width: 330px;
+  margin: 2px 12px 2px 12px;
   border-radius: 8px;
   box-shadow: 0 0 12px rgba(99, 213, 241, 0.637);
 }
@@ -217,7 +217,7 @@ h2 {
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 20px;
-  gap: 8px;
+  gap: 5px;
   width: 100%;
   max-width: 100%;
   box-sizing: border-box;
@@ -357,9 +357,10 @@ h2 {
   }
 
   .filter-group {
+    justify-content: center;
     flex-wrap: wrap;
     width: 100%;
-    gap: 14px;
+    gap: 8px;
     scrollbar-width: none;
   }
   
@@ -376,5 +377,8 @@ h2 {
   }  
   .project-container:hover {
     transform: none;
+  }
+  .tech-list {
+    gap: 5px;
   }
 }
