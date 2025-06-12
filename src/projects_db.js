@@ -16,7 +16,7 @@ const projects = [
     live: 'https://gracious-swartz-8e7f4d.netlify.app/',
     demo: blackjack,
     desc: 'A variation of blackjack built with React. Players are dealt two hands instead of one, and have the option to "switch" the top card of each. Players place bets, then they are dealt cards. Then they may hit, stay, double down or split (if the cards allow).',
-    techs: ['React', 'express', 'psql'],
+    techs: ['React', 'Express.JS', 'psql', 'Bootstrap'],
     isLive: false
   },
   {
@@ -89,20 +89,20 @@ const projects = [
     techs: ['express', 'EJS', 'cookies', 'bcrypt'],
     isLive: false
   },
-  // {
-  //   name: 'Magnet Merge',
-  //   type: ["Game"],
-  //   github: 'https://bitbucket.org/an_moniz/gmtk21/src/main/', //todo - change link
-  //   live: 'https://tanspriter.itch.io/magnet-merge',
-  //   demo: magnetMerge,
-  //   desc: 'PLACEHOLDER GMTK21', //todo - description
-  //   techs: ['Unity', 'C#'],
-  //   isLive: true
-  // },
+  {
+    name: 'Magnet Merge',
+    type: ["Game"],
+    github: 'https://bitbucket.org/an_moniz/gmtk21/src/main/', 
+    live: 'https://tanspriter.itch.io/magnet-merge',
+    demo: magnetMerge,
+    desc: 'Puzzle-platformer made in just 48 hours for the Game Maker\'s Toolkit Game Jam in 2021 (GMTK21). The theme was \"Joined Together". Player moves with arrow keys & spacebar. Left and Right mouse buttons are used to create magnetic pull in either verticle or horizontal direction. VERY buggy and unpolished, but the magnetism was a fun and creative mechanic to code!',
+    techs: ['Unity', 'C#'],
+    isLive: true
+  },
   // {
   //   name: 'Leaf Leap',
   //   type: ["Game"],
-  //   github: 'https://bitbucket.org/an_moniz/gmtk21/src/main/', //todo - change link
+  //   github: 'https://bitbucket.org/an_moniz/springjam/src/main/main/SpringJam/', //todo - change link
   //   live: 'https://tanspriter.itch.io/magnet-merge', //todo
   //   demo: magnetMerge,
   //   desc: 'PLACEHOLDER GMTK21', //todo - description

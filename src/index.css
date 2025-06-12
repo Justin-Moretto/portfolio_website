@@ -21,16 +21,16 @@ body {
   box-sizing: border-box;
 }
 
-.headerText h1, .headerText h3 {
+.headerText-container h1, .headerText-container h3 {
   margin: 6px 0;
   line-height: 1.2;
 }
 
-.headerText h1 {
+.headerText-container h1 {
   font-size: 36px;
 }
 
-.headerText h3 {
+.headerText-container h3 {
   font-size: 24px;
   font-weight: 500;
   color: #99acaf;
@@ -41,23 +41,33 @@ h2 {
   margin-left: 50px;
 }
 
-/* HEADER SECTION */
-#header {
-  height: 340px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-bottom: solid 1px var(--accent-color);
-  background-image: var(--gradient1);
+.title {
+  color: rgb(113, 214, 228);
 }
 
-.headerDiv {
-  flex-grow: 1;
+/* HEADER SECTION */
+#header {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+  padding: 40px 60px;
+  gap: 40px;
+  border-bottom: 1px solid var(--accent-color);
+  background-image: var(--gradient1);
+  flex-wrap: nowrap;
+}
+
+.headshot-container {
+  flex-shrink: 0;
+}
+
+.headerText-container {
+  flex-grow: 1;
   text-align: center;
+}
+
+.links-container {
+  flex-shrink: 0;
 }
 
 #header-links {
@@ -105,7 +115,8 @@ h2 {
 #portfolio {
   margin: 0 50px;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 24px;
   flex-wrap: wrap;
 }
 
@@ -199,6 +210,24 @@ h2 {
 .live-button:hover {
   background-color: var(--accent-purple);
   color: #ffffff;
+}
+
+.cv-links {
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+}
+
+.CV-link {
+  border-color: #a64bf4; /* purple border */
+  color: #a64bf4;
+  width: 90px;
+  margin-right: 5px;
+}
+
+.CV-link:hover {
+  background-color: #a64bf4;
+  color: white;
 }
 
 /* TECH TAGS */
@@ -313,7 +342,21 @@ h2 {
 
   #header {
     flex-direction: column;
-    height: auto;
+    gap: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .headerText-container
+   {
+    width: 100%;
+    align-items: center;
+  }
+  .headshot-container,
+  .links-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
     align-items: center;
   }
 
@@ -322,7 +365,7 @@ h2 {
     align-items: center;
     justify-content: center;
     gap: 12px;
-    padding: 0 0 20px;
+    padding: 0 0 14px;
     width: 400px;
   }
 
