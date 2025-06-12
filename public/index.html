@@ -5,13 +5,23 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="My web dev portfolio website" />
+  <meta name="description" content="Justin Moretto's software dev portfolio website" />
   <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <script>
+    if (
+      window.location.hostname === "justinmoretto.ca" &&
+      window.location.protocol !== "https:"
+    ) {
+      window.location.href = "https://www.justinmoretto.ca" + window.location.pathname;
+    } else if (window.location.hostname === "justinmoretto.ca") {
+      window.location.href = "https://www.justinmoretto.ca" + window.location.pathname;
+    }
+  </script>
 
-  <title>J.Moretto-Web Dev Portfolio</title>
+  <title>J.Moretto's Dev Portfolio</title>
 </head>
 
 <body>
