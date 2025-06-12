@@ -380,6 +380,11 @@ h2 {
     margin-right: auto;
     width: 100%;
   }
+  #portfolio {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
 
   .project-demo {
     width: 100%;
