@@ -7,50 +7,23 @@ import portfolio from "./docs/portfolio.gif"
 import ribbiting from "./docs/ribbit-demo.gif"
 import magnetMerge from "./docs/magnet-demo.gif"
 import dungeonMaze from "./docs/dungeon-maze-demo.gif"
+import gymStats from "./docs/gymstats-demo.gif"
 
 const projects = [
   {
-    name: 'Blackjack Switch',
-    type: ["Web", "Game"],
-    github: 'https://github.com/Justin-Moretto/blackjack-switch',
-    live: 'https://gracious-swartz-8e7f4d.netlify.app/',
-    demo: blackjack,
-    desc: 'A variation of blackjack built with React. Players are dealt two hands instead of one, and have the option to "switch" the top card of each. Players place bets, then they are dealt cards. Then they may hit, stay, double down or split (if the cards allow).',
-    techs: ['React', 'Express.JS', 'psql', 'Bootstrap'],
+    name: 'GymStats (WIP)',
+    year: 2025,
+    type: ["Mobile",],
+    github: 'https://github.com/Justin-Moretto/gym_app',
+    //live: 'https://gracious-swartz-8e7f4d.netlify.app/',
+    demo: gymStats,
+    desc: 'A mobile app for tracking gym workouts. Users may create a workout, add exercises to it, and track their progress. The app is built with Flutter and Supabase. Still a work in progress, but I plan to release this on App and Play stores in 2026!',
+    techs: ['Dart', 'Flutter', 'Supabase', 'SQL'],
     isLive: false
-  },
-  {
-    name: 'Interview Scheduler',
-    type: ["Web"],
-    github: 'https://github.com/Justin-Moretto/scheduler',
-    live: 'https://nostalgic-pasteur-6e603d.netlify.app/',
-    demo: scheduler,
-    desc: 'React application where users may select available time slots and interviewers to book appointments throughout the week. User may then edit or delete their appointments. I also practiced testing on this app with Storybook, Jest and Cypress. Mobile friendly.',
-    techs: ['React', 'psql'],
-    isLive: false
-  },
-  {
-    name: 'A Ribbiting Tale',
-    type: ["Game"],
-    github: 'https://github.com/jgitdaw/FrogJam2022',
-    live: 'https://noccifer.itch.io/a-ribbitting-tale',
-    demo: ribbiting,
-    desc: 'Puzzle game. Playable in browser. The player controls a Frog who must navigate obstacles and use power-ups from flower to find his way back to his girlfriend. The player can press backspace to undo their moves. I was the solo coder on this game. We designed and built this in less than 4 weeks for a game jam (IVGD Winter FrogJam 2022 on itch.io)',
-    techs: ['Unity', 'C#'],
-    isLive: true
-  },
-  {
-    name: 'This portfolio site',
-    type: ["Web"],
-    github: 'https://github.com/Justin-Moretto/portfolio_website',
-    live: 'https://justin-moretto.github.io/portfolio_website/',
-    demo: portfolio,
-    desc: 'I built this site with React, mostly just to separate the components. Adaptive design! Check it out on mobile!',
-    techs: ['React'],
-    isLive: true
   },
   {
     name: 'Dungeon Maze',
+    year: 2021,
     type: ["Game"],
     github: 'https://github.com/Justin-Moretto/maze_prototype',
     live: 'https://tanspriter.itch.io/magnet-merge',
@@ -60,7 +33,53 @@ const projects = [
     isLive: false
   },
   {
+    name: 'Interview Scheduler',
+    year: 2020,
+    type: ["Web"],
+    github: 'https://github.com/Justin-Moretto/scheduler',
+    live: 'https://nostalgic-pasteur-6e603d.netlify.app/',
+    demo: scheduler,
+    desc: 'React application where users may select available time slots and interviewers to book appointments throughout the week. User may then edit or delete their appointments. I also practiced testing on this app with Storybook, Jest and Cypress. Mobile friendly.',
+    techs: ['React', 'psql'],
+    isLive: false
+  },
+  {
+    name: 'This portfolio site',
+    year: 2020,
+    type: ["Web"],
+    github: 'https://github.com/Justin-Moretto/portfolio_website',
+    live: 'https://justin-moretto.github.io/portfolio_website/',
+    demo: portfolio,
+    desc: 'I built this site with React, mostly just to separate the components. Adaptive design! Check it out on mobile!',
+    techs: ['React'],
+    isLive: true
+  },
+  {
+    name: 'A Ribbiting Tale',
+    year: 2021,
+    type: ["Game"],
+    github: 'https://github.com/jgitdaw/FrogJam2022',
+    live: 'https://noccifer.itch.io/a-ribbitting-tale',
+    demo: ribbiting,
+    desc: 'Puzzle game. Playable in browser. The player controls a Frog who must navigate obstacles and use power-ups from flower to find his way back to his girlfriend. The player can press backspace to undo their moves. I was the solo coder on this game. We designed and built this in less than 4 weeks for a game jam (IVGD Winter FrogJam 2022 on itch.io)',
+    techs: ['Unity', 'C#'],
+    isLive: true
+  },
+
+  {
+    name: 'Blackjack Switch',
+    year: 2020,
+    type: ["Web", "Game"],
+    github: 'https://github.com/Justin-Moretto/blackjack-switch',
+    live: 'https://gracious-swartz-8e7f4d.netlify.app/',
+    demo: blackjack,
+    desc: 'A variation of blackjack built with React. Players are dealt two hands instead of one, and have the option to "switch" the top card of each. Players place bets, then they are dealt cards. Then they may hit, stay, double down or split (if the cards allow).',
+    techs: ['React', 'Express.JS', 'psql', 'Bootstrap'],
+    isLive: false
+  },
+  {
     name: 'Guitar Market',
+    year: 2020,
     type: ["Web"],
     github: 'https://github.com/Justin-Moretto/Guitar-Market',
     live: 'https://guitar-market.herokuapp.com/',
@@ -71,6 +90,7 @@ const projects = [
   },
   {
     name: 'Tweeter',
+    year: 2020,
     type: ["Web"],
     github: 'https://github.com/Justin-Moretto/tweeter',
     live: 'https://justin-moretto-tweeter.herokuapp.com/',
@@ -81,6 +101,7 @@ const projects = [
   },
   {
     name: 'tinyApp',
+    year: 2020,
     type: ["Web"],
     github: 'https://github.com/Justin-Moretto/tinyapp',
     live: 'https://justin-tinyapp.herokuapp.com/',
@@ -91,6 +112,7 @@ const projects = [
   },
   {
     name: 'Magnet Merge',
+    year: 2021,
     type: ["Game"],
     github: 'https://bitbucket.org/an_moniz/gmtk21/src/main/', 
     live: 'https://tanspriter.itch.io/magnet-merge',

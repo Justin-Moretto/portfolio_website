@@ -81,7 +81,7 @@ h2 {
 
 /* HEADSHOT */
 #headshot {
-  object-fit: cover;
+  object-fit: scale-down;
   display: block;
   border-radius: 20%;
   width: 250px;
@@ -127,7 +127,7 @@ h2 {
   padding: 20px;
   margin-bottom: 20px;
   background-image: var(--gradient4);
-  width: min-content;
+  width: 400px;
   display: flex;
   flex-direction: column;
   transition: 0.3s;
@@ -151,8 +151,9 @@ h2 {
 
 .project-demo {
   object-fit: scale-down;
-  width: 350px;
-  margin: 2px 12px 2px 12px;
+  max-width: 350px;
+  max-height: 200px;
+  margin: 2px 12px 2px 12px; display: block; margin-left: auto; margin-right: auto;
   border-radius: 8px;
   box-shadow: 0 0 12px rgba(99, 213, 241, 0.637);
 }
