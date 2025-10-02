@@ -10,7 +10,7 @@ function App() {
       <Header />
       <h2>About me:</h2>
       <Summary />
-      <h2>My projects:</h2>
+      <h2>Side projects:</h2>
       <Projects />
       <br/>
       
